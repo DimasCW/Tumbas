@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>toko online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="block-screen">
+      <div>
+        <ul>
+          <ol>
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/009/663/747/original/warning-icon-transparent-free-png.png"
+              alt=""
+            />
+          </ol>
+          <ol>
+            <p>Silahkan guanakan ukuran layar yang lebih besar</p>
+          </ol>
+        </ul>
+      </div>
+    </div>
+
+    <div class="contain">
+      <div class="navbar">
+        <div class="logo">
+          <img src="/assets/trolley_4290854.png" alt="" />
+          <p>Tumbas</p>
+        </div>
+
+        <div class="menu">
+          <a href=".home">Home</a>
+          <a href="#hotsale">Hot Sale</a>
+          <a href="#produk">Produk</a>
+        </div>
+
+        <div class="contact">
+          <img
+            src="https://media.licdn.com/dms/image/D5603AQGNyHllHLfmCQ/profile-displayphoto-shrink_800_800/0/1691057407379?e=1717632000&v=beta&t=Pmthse6M5a-Zi28r6LCmqGGSeok2TAUrD7sl8AOEVjQ"
+            alt=""
+          />
+          <p>Dimas Chandra Winata</p>
+        </div>
+      </div>
+
+      <div class="home">
+        <img src="/assets/7033813.jpg" alt="" />
+      </div>
+
+      <div class="hotsale">
+        <h1
+          id="hotsale"
+          style="text-align: center; margin-top: 20px; margin-bottom: 30px; margin-top: 70px"
+        >
+          Hot Sale
+        </h1>
+
+        <div class="hotsale-content">
+          <div class="card">
+            <img
+              src="https://jabarekspres.com/wp-content/uploads/2024/01/fairtrade-bananas.png"
+              width="240"
+              alt=""
+            />
+            <p>Pisang</p>
+            <p>Rp 15.000/Kg</p>
+            <button
+              style="
+                background-color: black;
+                color: white;
+                border-radius: 5px;
+                width: 80px;
+              "
+            >
+              Beli
+            </button>
+          </div>
+          <div class="card">
+            <img
+              src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1571035352/dmfovrwdeskdyvledzph.jpg"
+              width="240"
+              alt=""
+            />
+            <p>Apel</p>
+            <p>Rp 15.000/Kg</p>
+            <button
+              style="
+                background-color: black;
+                color: white;
+                border-radius: 5px;
+                width: 80px;
+              "
+            >
+              Beli
+            </button>
+          </div>
+          <div class="card">
+            <img
+              src="https://tribratanews.polri.go.id/web/image/blog.post/66077/image"
+              width="240"
+              alt=""
+            />
+            <p>Durian</p>
+            <p>Rp 70.000/Kg</p>
+            <button
+              style="
+                background-color: black;
+                color: white;
+                border-radius: 5px;
+                width: 80px;
+              "
+            >
+              Beli
+            </button>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.tokopedia.net/img/cache/700/VqbcmM/2023/6/29/dbed208c-a2b2-4989-a18e-1815d604d496.jpg"
+              width="150"
+              alt=""
+            />
+            <p>Pisang</p>
+            <p>Rp 15.000</p>
+            <button
+              style="
+                background-color: black;
+                color: white;
+                border-radius: 5px;
+                width: 80px;
+              "
+            >
+              Beli
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+
+      <div id="produk" class="produk">
+        <h1 style="text-align: center">produk</h1>
+        <div class="navbar-produk">
+          <button id="button1" onclick="ubah(1)">Buah</button>
+          <button id="button2" onclick="ubah(2)">Snack</button>
+          <button id="button3" onclick="ubah(3)">Minuman</button>
+        </div>
+        <div class="product-content">
+          <div id="buah" class="produk-buah">
+            <div class="card">
+              <img
+                src="https://asset.kompas.com/crops/Zx0qzYqqfhmcuusMVprdWCVtb_4=/77x19:928x586/1200x800/data/photo/2023/02/07/63e209234faff.jpg"
+                alt=""
+              />
+              <p>Durian</p>
+              <p>Rp 70.000/Kg</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://th.bing.com/th/id/OIP.JkZ1u-gqX9aUheD0KQuS8AHaE7?w=280&h=187&c=7&r=0&o=5&pid=1.7" alt="" />
+              <p>Pisang</p>
+              <p>Rp 15.000/Kg</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/06/27082206/7-Penyakit-yang-Dapat-Diatasi-dengan-Mengonsumsi-Buah-Apel.jpg.webp" alt="" />
+              <p>Apel</p>
+              <p>Rp 15.000/Kg</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://i0.wp.com/umsu.ac.id/berita/wp-content/uploads/2024/03/jenis-jenis-kurma-dan-manfaatnya.jpg?fit=1280%2C854&ssl=1" alt="" />
+              <p>Kurma</p>
+              <p>Rp 30.000/Kg</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF26vVh953B6Kce9L1louRWcJcioNs7axH542f8WbH6g&s" alt="" />
+              <p>Semangka</p>
+              <p>Rp 25.000/Kg</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1UYUzgoP6hohltGEorVylsj4TOjCcP0YIt9SbqaFIDw&s" alt="" />
+              <p>Jambu</p>
+              <p>Rp 20.000/Kg</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/06/09043427/Kaya-Nutrisi-Ini-11-Manfaat-Buah-Melon-Jika-Rutin-Dikonsumsi-.jpg.webp" alt="" />
+              <p>Melon</p>
+              <p>Rp 15.000/Kg</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/jawapos/2020/01/Jeruk-Mandarin-Pixabay.jpg" alt="" />
+              <p>Jeruk</p>
+              <p>Rp 35.000/Kg</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsxd1MOQgLMoNPxk_vQAXZUNG_k2cpcgYdCYm4vXmLcg&s" alt="" />
+              <p>Mangga</p>
+              <p>Rp 28.000/Kg</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://asset.kompas.com/crops/TAWdNI7TtekKjwGh_ZZMxZ2yf5E=/0x0:612x408/750x500/data/photo/2023/07/05/64a4cb322b254.jpeg" alt="" />
+              <p>Kiwi</p>
+              <p>Rp 100.000/Kg</p>
+              <button>Beli</button>
+            </div>
+          </div>
+          <div id="snack" class="produk-buah">
+            <div class="card">
+              <img
+                src="https://www.minimeinsights.com/wp-content/uploads/2018/03/Chitato-new-packaging-2-640x480.jpg"
+                alt=""
+              />
+              <p>Chitato</p>
+              <p>Rp 10.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://qph.cf2.quoracdn.net/main-qimg-ed3010999f73cff58485bbb0bddd6a07-lq" height="225px" alt="" />
+              <p>Lays</p>
+              <p>Rp 15.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://th.bing.com/th/id/OIP.LMp_AXwuZPJbE-z3snbEwAHaE7?rs=1&pid=ImgDetMain" height="225px" alt="" />
+              <p>Doritos</p>
+              <p>Rp 15.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://images.bozoraka.com/image/6e9a5cc94ea449e5bbf531cda5580e1d/image" height="225px" alt="" />
+              <p>Beng - Beng</p>
+              <p>Rp 5.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://grandlagunashop.com/wp-content/uploads/CHOCOLATOS-GRANDE-8X14G.jpg" height="225px" alt="" />
+              <p>Chocolatos</p>
+              <p>Rp 25.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://cf.shopee.com.my/file/1b7c026bd49dd7c986106513220abeaf" height="225px" alt="" />
+              <p>Pillows</p>
+              <p>Rp 20.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://img3.21food.com/img/product/2020/11/13/food3049441605276165787084.jpg" height="225px" alt="" />
+              <p>Taro</p>
+              <p>Rp 15.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://cf.shopee.co.id/file/c4e7c824ec3c88c2440b0ebdeff235a2" height="225px" alt="" />
+              <p>Pota Bee</p>
+              <p>Rp 35.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://cf.shopee.co.id/file/9fdcfade623a401908821750056766b1" height="225px" alt="" />
+              <p>FitBar</p>
+              <p>Rp 2.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://cf.shopee.co.id/file/3dee4f17db9dddb4c6d514309f9de592" height="225px" alt="" />
+              <p>Qtela</p>
+              <p>Rp 10.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+          </div>
+          <div id="minuman" class="produk-buah">
+            <div class="card">
+              <img
+                src="https://shopifull.com/wp-content/uploads/2020/05/Aqua-Mineral-water-1.5Ltr-400x400.jpg"
+                alt=""
+                height="225px"
+              />
+              <p>Aqua</p>
+              <p>Rp 3.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://www.srssulit.com/wp-content/uploads/products/2004876690-1.png" height="225px" alt="" />
+              <p>Le Mineral</p>
+              <p>Rp 3.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://th.bing.com/th/id/R.d80e423efa20a8a02a999c5b60799433?rik=07nVkPKxOzaKBw&riu=http%3a%2f%2fwww.reksointernational.com%2fproducts%2fimg%2ffruittea.jpg&ehk=CDte60Pze0gnrhOfuJAx520bzSuWL3wIPu6zf65XgPw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" height="225px" alt="" />
+              <p>Fruit tea</p>
+              <p>Rp 5.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://down-id.img.susercontent.com/file/id-11134207-7r991-lp0g5fviq707fc" height="225px" alt="" />
+              <p>Good Day</p>
+              <p>Rp 9.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://th.bing.com/th/id/OIP.BBrHZ5ziaHImqVUvs-A6ygAAAA?rs=1&pid=ImgDetMain" height="225px" alt="" />
+              <p>Sprite</p>
+              <p>Rp 9.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://down-id.img.susercontent.com/file/0cca084e2bd544479e1332afa9a4ab76" height="225px" alt="" />
+              <p>Ultramilk</p>
+              <p>Rp 5.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://bosmayur.com/wp-content/uploads/2020/04/GREENFIELDS-600x600.jpg" height="225px" alt="" />
+              <p>Greenfields</p>
+              <p>Rp 15.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://th.bing.com/th/id/OIP.ja7utDTIAb-Hu7R7kJWW8AHaHa?rs=1&pid=ImgDetMain" height="225px" alt="" />
+              <p>Nescafe</p>
+              <p>Rp 15.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://th.bing.com/th/id/OIP.1IWac4ArC306yDzDZwtWzwHaHa?rs=1&pid=ImgDetMain" height="225px" alt="" />
+              <p>Pocari Sweat</p>
+              <p>Rp 8.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+            <div class="card">
+              <img src="https://th.bing.com/th/id/OIP.NNzAbNCw5QAeW-spNLwLbwHaHa?rs=1&pid=ImgDetMain" height="225px" alt="" />
+              <p>Oatside</p>
+              <p>Rp 10.000/Pcs</p>
+              <button>Beli</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/4cb4ec9d02.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function ubah(ubahdiv){
+        if(ubahdiv === 1){
+          document.getElementById('buah').style.display = 'flex';
+          document.getElementById('snack').style.display = 'none';
+          document.getElementById('minuman').style.display = 'none';
+          document.getElementById('button1').classList.add('navbar-kuning');
+          document.getElementById('button2').classList.remove('navbar-kuning');
+          document.getElementById('button3').classList.remove('navbar-kuning');
+        }else if (ubahdiv ===2){
+          document.getElementById('buah').style.display = 'none';
+          document.getElementById('snack').style.display = 'flex';
+          document.getElementById('minuman').style.display = 'none';
+          document.getElementById('button1').classList.remove('navbar-kuning');
+          document.getElementById('button2').classList.add('navbar-kuning');
+          document.getElementById('button3').classList.remove('navbar-kuning');
+
+        }else if (ubahdiv === 3){
+          document.getElementById('buah').style.display = 'none';
+          document.getElementById('snack').style.display = 'none';
+          document.getElementById('minuman').style.display = 'flex';
+          document.getElementById('button1').classList.remove('navbar-kuning');
+          document.getElementById('button2').classList.remove('navbar-kuning');
+          document.getElementById('button3').classList.add('navbar-kuning');
+
+
+        }
+      }
+
+
+
+
+
+      document.querySelectorAll(".navbar .menu a").forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const target = document.querySelector(this.getAttribute("href"));
+
+          window.scrollTo({
+            top: target.offsetTop,
+            behavior: "smooth", // Pergi dengan efek smooth scroll
+          });
+        });
+      });
+
+      // alert('Silahkan Menggunakan Desktop')
+    </script>
+  </body>
+</html>
